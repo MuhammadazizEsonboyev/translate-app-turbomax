@@ -8,6 +8,8 @@ function App() {
     <>
       <NavbarPage/>
       <Cardstorage/>
+    
+  
     </>
   );
 }
