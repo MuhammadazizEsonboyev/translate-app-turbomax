@@ -12,7 +12,7 @@ const NavbarPage = () => {
   return (
     <>
 <Container>
-    <Row>
+    <Row className="justify-content-center mt-4">
         <Col xs={12}>
         <Navbar bg="light" expand="lg">
       <Container>
