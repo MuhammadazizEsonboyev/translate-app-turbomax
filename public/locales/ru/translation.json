@@ -1,9 +1,11 @@
 {
     "text":{
-        "home": "Home",
-        "link": "Link" ,
-        "action": "Action",
-        "another": " Another action",
-        "something": "Something"
+        "home": "Дом",
+        "link": "Связь" ,
+        "action": "Действие",
+        "another": " Другое действие",
+        "something": "Что-нибудь",
+        "dropdown": "Список",
+        "separated": "Отдельная ссылка"
     }
 }

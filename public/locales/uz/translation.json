@@ -1,9 +1,11 @@
 {
     "text":{
         "home": "Uy",
-        "link": "Sahifa" ,
+        "link": "Havola" ,
         "action": "Hodisa",
         "another": " Boshqa hodisa",
-        "something": "Nimadir"
+        "something": "Nimadir",
+        "dropdown": "Ro'yxat",
+        "separated": "Ajratilgan havola"
     }
 }
