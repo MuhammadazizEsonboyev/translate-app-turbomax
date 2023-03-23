@@ -5,7 +5,10 @@
         "action": "Action",
         "another": " Another action",
         "something": "Something",
+        "titleOfCountries":"Nature of the USA",
         "dropdown": "Dropdown",
-        "separated": "Separated link"
+        "separated": "Separated link",
+        "infoOfCard":""
+        
     }
 }
