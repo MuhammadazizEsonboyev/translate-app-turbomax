@@ -7,31 +7,31 @@ const Cardstorage = () => {
   const data = [
     {
       img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
-      title: `${t("text.titleOfCountries")}`,
+      title: `${t("text.titleZero")}`,
       info: `${t("text.infoOfCard")}`,
       id: 1
     },
     {
       img: "https://www.japan-guide.com/g6/XYZeXYZe2172_225.jpg",
-      title: "Nature of Japan",
-      info: 'Many visitors to Japan limit their sightseeing activities to the country`s heavily urbanized areas between Tokyo, Kyoto and Hiroshima.',
+      title: `${t("text.titleOne")}`,
+      info: `${t("text.infoOfTwo")}`,
       id: 1
     },
     {
       img: "https://uzbekistan.travel/storage/app/media/cropped-images/5952701_xlarge-0-0-0-0-1584517453.jpg",
-      title: "Nature of Uzbekistan",
-      info: 'Uzbekistan has no access to the sea and makes up for this with a huge number of the world’s most beautiful lakes, natural and artificial reservoirs and large rivers that cover the entire Central Asia.',
+      title:`${t("text.titleTwo")}`,
+      info:`${t("text.infoOfTwo")}`,
       id: 1
     },
     {
       img: "https://www.advantour.com/img/kazakhstan/images/nature.jpg",
-      title: "Nature of Kazakhstan",
-      info: 'Kazakhstan has 9th the largest territory in the world (2,724,900km2), with the population of only 17 million',
+      title:`${t("text.titleThree")}`,
+      info: `${t("text.infoOfThree")}`,
       id: 1
     },
     {
       img: "https://newsroom.korea.net/upload/content/editImage/20201230202905720_VBDSHY2C.png",
-      title: "Nature of Korea",
+      title: `${t("text.titleFour")}`,
       info: 'South Korea has designated and operated national parks to preserve the natural ecosystems and natural and cultural wonders.',
       id: 1
     },
