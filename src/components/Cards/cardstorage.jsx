@@ -8,7 +8,7 @@ const Cardstorage = () => {
     {
       img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
       title: `${t("text.titleOfCountries")}`,
-      info: 'The material world of the Universe, in essence, is the main object of study of the natural sciences. In everyday life, the word "nature" is often used in the sense of a natural habitat.',
+      info: `${t("text.infoOfCard")}`,
       id: 1
     },
     {
@@ -49,7 +49,7 @@ const Cardstorage = () => {
     },
     {
       img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
-      title: "Doston",
+      title: "Nature of Russian",
       info: '04 turbo max',
       id: 1
     }

@@ -1,11 +1,14 @@
 {
     "text":{
-        "home": "Home",
-        "link": "Link" ,
-        "action": "Action",
-        "another": " Another action",
-        "something": "Something",
-        "titleOfCountries":"Nature "
-
+        "home": "Дом",
+        "link": "Связь" ,
+        "action": "Действие",
+        "another": " Другое действие",
+        "something": "Что-нибудь",
+        "dropdown": "Список",
+        "separated": "Отдельная ссылка",
+        "titleOfCountries":"Природа России",
+        "infoOfCard":"Материальный мир Вселенной, по существу, является основным объектом изучения естественных наук. В быту слово «природа» часто употребляется в значении естественной среды обитания."
+        
     }
 }

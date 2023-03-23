@@ -1,11 +1,12 @@
 {
     "text":{
         "home": "Uy",
-        "link": "Sahifa" ,
+        "link": "Havola" ,
         "action": "Hodisa",
         "another": " Boshqa hodisa",
         "something": "Nimadir",
-        "titleOfCountries":" of the USA"
-
+        "titleOfCountries":" of the USA",
+        "dropdown": "Ro'yxat",
+        "separated": "Ajratilgan havola"
     }
 }
