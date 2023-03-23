@@ -1,5 +1,6 @@
 import React from "react";
 import Cardstorage from "./components/Cards/cardstorage";
+import Footer from "./components/Footer/Footer";
 import NavbarPage from "./components/Navbar/NavbarPage";
 
 
@@ -21,10 +22,17 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
       <NavbarPage /> 
       <Cardstorage />
 
 
+=======
+      <NavbarPage/>
+      <Cardstorage/>
+      <Footer/>
+  
+>>>>>>> 07ceee53c658cbef1389701cbb1763cc13d101ab
     </>
   );
 }
