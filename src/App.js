@@ -4,16 +4,24 @@ import NavbarPage from "./components/Navbar/NavbarPage";
 
 
 function App() {
-  // const deleteData = (id)=>{
-  //   fetch(`https://jsonplaceholder.typicode.com/posts/1/${id}`,
+
+
+  // const PostData = ()=>{
+  //   fetch("url"),
   //   {
-  //     method: "DELETE"
+  //     method: "POST",
+  //     headers:eaders,
+  //     body:body
   //   })
   //   .then(response => { console.log(response.status); });
   // }
+
+
+
+
   return (
     <>
-      <NavbarPage />
+      <NavbarPage /> 
       <Cardstorage />
 
 

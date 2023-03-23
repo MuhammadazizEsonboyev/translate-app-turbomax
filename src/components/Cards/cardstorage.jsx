@@ -8,49 +8,49 @@ const Cardstorage = () => {
     {
       img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
       title: `${t("text.titleZero")}`,
-      info: `${t("text.infoOfCard")}`,
+      info: `${t("text.cardInfoZero")}`,
       id: 1
     },
     {
       img: "https://www.japan-guide.com/g6/XYZeXYZe2172_225.jpg",
       title: `${t("text.titleOne")}`,
-      info: `${t("text.infoOfTwo")}`,
+      info: `${t("text.cardInfoOne")}`,
       id: 1
     },
     {
-      img: "https://uzbekistan.travel/storage/app/media/cropped-images/5952701_xlarge-0-0-0-0-1584517453.jpg",
+      img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
       title:`${t("text.titleTwo")}`,
-      info:`${t("text.infoOfTwo")}`,
+      info:`${t("text.cardInfoFour")}`,
       id: 1
     },
     {
       img: "https://www.advantour.com/img/kazakhstan/images/nature.jpg",
       title:`${t("text.titleThree")}`,
-      info: `${t("text.infoOfThree")}`,
+      info: `${t("text.cardInfoThree")}`,
       id: 1
     },
     {
       img: "https://newsroom.korea.net/upload/content/editImage/20201230202905720_VBDSHY2C.png",
       title: `${t("text.titleFour")}`,
-      info: 'South Korea has designated and operated national parks to preserve the natural ecosystems and natural and cultural wonders.',
+      info: `${t("text.cardInfoFour")}`,
       id: 1
     },
     {
       img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
-      title: "Doston",
-      info: '04 turbo max',
+      title: `${t("text.titleFive")}`,
+      info: `${t("text.cardInfoFive")}`,
       id: 1
     },
     {
       img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
-      title: "Asadbek",
-      info: '04 turbo max',
+      title: `${t("text.titleSix")}`,
+      info: `${t("text.cardInfoSix")}`,
       id: 1
     },
     {
       img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
-      title: "Nature of Russian",
-      info: '04 turbo max',
+      title: `${t("text.titleSeven")}`,
+      info: `${t("text.cardInfoSeven")}`,
       id: 1
     }
   ]
