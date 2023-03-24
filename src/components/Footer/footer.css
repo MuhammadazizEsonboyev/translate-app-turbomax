@@ -18,3 +18,15 @@
 .footer_h6{
     margin-left: 16px;
 }
+.iconchalar{
+    width: 30px;
+    font-size: 30px;
+       margin-right: 30px;
+}
+
+
+.back{
+    margin-top: 40px;
+    background-color: rgb(15, 15, 36);
+    color: white;
+}
