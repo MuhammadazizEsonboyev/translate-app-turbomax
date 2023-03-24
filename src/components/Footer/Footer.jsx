@@ -19,11 +19,11 @@ export default function Footer() {
                     <Row className='justify-content-center'>
                         <Col xs={12}>
                             <hr></hr>
-                            <h5  style={{marginLeft: '10px'}}>{t("text.footer_turboMax")}</h5>
-                            <p style={{marginLeft: '10px'}}>{t("text.turboMax")}</p>
+                            <h5  style={{marginLeft: '10px', color: 'white'}}>{t("text.footer_turboMax")}</h5>
+                            <p style={{marginLeft: '10px', color: 'white'}}>{t("text.turboMax")}</p>
                             <div className='stoir'>
                                 <img style={{marginRight: '10px'}} src={star} alt='' className='strix' />
-                                <h6 style={{marginRight: '10px'}} className='footer_h6'>{t("text.iTech")}</h6>
+                                <h6 style={{marginRight: '10px', color: 'white'}} className='footer_h6'>{t("text.iTech")}</h6>
                             </div>
                         </Col>
                     </Row>
