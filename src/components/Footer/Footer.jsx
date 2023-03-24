@@ -81,7 +81,7 @@ export default function Footer() {
                             <ul className='list'>
                                 <Accordion defaultActiveKey="1">
                                     <Accordion.Item eventKey="0">
-                                        <Accordion.Header >Dizayn</Accordion.Header>
+                                        <Accordion.Header  >Dizayn</Accordion.Header>
                                         <Accordion.Body>
                                             <li>Doston</li>
                                             <br></br>
