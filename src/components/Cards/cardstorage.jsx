@@ -9,13 +9,15 @@ const Cardstorage = () => {
     {
       img: "https://img1.10bestmedia.com/Images/Photos/382063/GettyImages-1182776320_54_990x660.jpg",
       img1:"https://www.tripsavvy.com/thmb/1vwoiJVvOT7ADjdliIBsquJ_7cE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/USA-NYC-American_Museum_of_Natural_History-5c00954fc9e77c000175923d.jpeg",
+      img2:"https://a.cdn-hotels.com/gdcs/production166/d650/99ed2f0d-9b5f-49d4-aed4-9062cff862e4.jpg",
       title: `${t("text.titleZero")}`,
       info: `${t("text.cardInfoZero")}`,
       id: 1
     },
     {
       img: "https://www.japan-guide.com/g6/XYZeXYZe2172_225.jpg",
-      img2:"https://blog.japanwondertravel.com/wp-content/uploads/2020/01/thor-alvis-A57akxc-4BQ-unsplash-1200x800.jpg",
+      img1:"https://blog.japanwondertravel.com/wp-content/uploads/2020/01/thor-alvis-A57akxc-4BQ-unsplash-1200x800.jpg",
+      img2:"https://image.dive-hiroshima.com/wp-content/uploads/2021/12/divehiroshima_feature_kouyou_nature_img05.jpg",
 
       title: `${t("text.titleOne")}`,
       info: `${t("text.cardInfoOne")}`,
@@ -23,7 +25,8 @@ const Cardstorage = () => {
     },
     {
       img: "https://u.osu.edu/uzbekistan/files/2021/01/Nature_Chimgan_Mountains.png",
-      img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqaOr-vl4ZAWyGYH08Wp0Koe3MdA-aAX2QYQ&usqp=CAU",
+      img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqaOr-vl4ZAWyGYH08Wp0Koe3MdA-aAX2QYQ&usqp=CAU",
+      img2:"https://bookatour.me/uploads/images/d15e315037b89fce412c2d437c61def5.jpg",
 
       title: `${t("text.titleTwo")}`,
       info: `${t("text.cardInfoFour")}`,
@@ -31,7 +34,8 @@ const Cardstorage = () => {
     },
     {
       img: "https://www.advantour.com/img/kazakhstan/images/nature.jpg",
-      img4:"https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/39/29/e4.jpg",
+      img1:"https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/39/29/e4.jpg",
+      img2:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/6b/9a/3b/caption.jpg?w=500&h=400&s=1",
       title: `${t("text.titleThree")}`,
       info: `${t("text.cardInfoThree")}`,
       id: 1
