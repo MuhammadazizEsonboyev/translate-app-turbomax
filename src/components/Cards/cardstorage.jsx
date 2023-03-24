@@ -15,7 +15,7 @@ const Cardstorage = () => {
     },
     {
       img: "https://www.japan-guide.com/g6/XYZeXYZe2172_225.jpg",
-      img2:"https://blog.japanwondertravel.com/wp-content/uploads/2020/01/thor-alvis-A57akxc-4BQ-unsplash-1200x800.jpg",
+      img1:"https://blog.japanwondertravel.com/wp-content/uploads/2020/01/thor-alvis-A57akxc-4BQ-unsplash-1200x800.jpg",
 
       title: `${t("text.titleOne")}`,
       info: `${t("text.cardInfoOne")}`,
@@ -23,7 +23,7 @@ const Cardstorage = () => {
     },
     {
       img: "https://u.osu.edu/uzbekistan/files/2021/01/Nature_Chimgan_Mountains.png",
-      img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqaOr-vl4ZAWyGYH08Wp0Koe3MdA-aAX2QYQ&usqp=CAU",
+      img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqaOr-vl4ZAWyGYH08Wp0Koe3MdA-aAX2QYQ&usqp=CAU",
 
       title: `${t("text.titleTwo")}`,
       info: `${t("text.cardInfoFour")}`,
@@ -31,39 +31,39 @@ const Cardstorage = () => {
     },
     {
       img: "https://www.advantour.com/img/kazakhstan/images/nature.jpg",
-      img4:"https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/39/29/e4.jpg",
+      img1:"https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/39/29/e4.jpg",
       title: `${t("text.titleThree")}`,
       info: `${t("text.cardInfoThree")}`,
       id: 1
     },
     {
       img: "https://newsroom.korea.net/upload/content/editImage/20201230202905720_VBDSHY2C.png",
-      img1:"https://media.istockphoto.com/id/1137568153/photo/cherry-blossoms-in-spring-seoul-in-korea.jpg?s=612x612&w=0&k=20&c=SP8py_0WQrn4mMFdrd0bvk7-MfRWxJl6C3AsHxJq8ck=",
-      img3:"https://www.phuhoancau.edu.vn/wp-content/uploads/2019/04/kham-pha-korea-la-o-dau.jpg",
+      // img1:"https://media.istockphoto.com/id/1137568153/photo/cherry-blossoms-in-spring-seoul-in-korea.jpg?s=612x612&w=0&k=20&c=SP8py_0WQrn4mMFdrd0bvk7-MfRWxJl6C3AsHxJq8ck=",
+      // img2:"https://www.phuhoancau.edu.vn/wp-content/uploads/2019/04/kham-pha-korea-la-o-dau.jpg",
       title: `${t("text.titleFour")}`,
       info: `${t("text.cardInfoFour")}`,
       id: 1
     },
     {
       img: "https://livinglandscapeobserver.net/wp-content/uploads/2017/12/unnamed-5.jpg",
-      img1:"https://media.easemytrip.com/media/Blog/India/636965375383792632/6369653753837926326vinSA.jpg",
-      img2:"https://media.istockphoto.com/id/511119924/photo/tea-plantations-and-river-in-hills-kerala-india.jpg?b=1&s=170667a&w=0&k=20&c=Raufg0A7TNVjLe-92r5zXJxsH8oyDZjGENR34jliB4Y=",
+      // img1:"https://media.easemytrip.com/media/Blog/India/636965375383792632/6369653753837926326vinSA.jpg",
+      // img2:"https://media.istockphoto.com/id/511119924/photo/tea-plantations-and-river-in-hills-kerala-india.jpg?b=1&s=170667a&w=0&k=20&c=Raufg0A7TNVjLe-92r5zXJxsH8oyDZjGENR34jliB4Y=",
       title: `${t("text.titleFive")}`,
       info: `${t("text.cardInfoFive")}`,
       id: 1
     },
     {
       img: "https://www.worldatlas.com/r/w768/upload/d5/2e/3f/shutterstock-1033815457.jpg",
-      img1:"https://media.istockphoto.com/id/507751686/photo/mountain-lake-view.jpg?s=612x612&w=0&k=20&c=TfD9avxBmYOvxAGTkXcUDBJ8kixyMdCM0WCkz9F4F-8=",
-      img2:"https://media-cdn.tripadvisor.com/media/photo-s/1a/59/2d/96/the-fann-mountains-are.jpg",
+      // img1:"https://media.istockphoto.com/id/507751686/photo/mountain-lake-view.jpg?s=612x612&w=0&k=20&c=TfD9avxBmYOvxAGTkXcUDBJ8kixyMdCM0WCkz9F4F-8=",
+      // img2:"https://media-cdn.tripadvisor.com/media/photo-s/1a/59/2d/96/the-fann-mountains-are.jpg",
       title: `${t("text.titleSix")}`,
       info: `${t("text.cardInfoSix")}`,
       id: 1
     },
     {
       img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/e4/d4/38/river-seine.jpg?w=500&h=-1&s=1",
-      img1:"https://media.istockphoto.com/id/1436430810/photo/paris-eiffel-tower.jpg?b=1&s=170667a&w=0&k=20&c=Qm33k45p4AGKtbNcqkx5hhfP7IRo8RYIpW_VdgE2bDU=",
-      img2:"https://media.istockphoto.com/id/1305908728/photo/landscapes-of-the-french-pyrenees.jpg?b=1&s=170667a&w=0&k=20&c=rtvbvP7_Ojj_H3uyf5FYZpLLpLoSCR-SK1d9edaaFJg=",
+      // img1:"https://media.istockphoto.com/id/1436430810/photo/paris-eiffel-tower.jpg?b=1&s=170667a&w=0&k=20&c=Qm33k45p4AGKtbNcqkx5hhfP7IRo8RYIpW_VdgE2bDU=",
+      // img2:"https://media.istockphoto.com/id/1305908728/photo/landscapes-of-the-french-pyrenees.jpg?b=1&s=170667a&w=0&k=20&c=rtvbvP7_Ojj_H3uyf5FYZpLLpLoSCR-SK1d9edaaFJg=",
       title: `${t("text.titleSeven")}`,
       info: `${t("text.cardInfoSeven")}`,
       id: 1
@@ -81,7 +81,7 @@ const Cardstorage = () => {
                     <Carousel fade>
                       <Carousel.Item>
                         <img
-                          className="d-block w-100"
+                          className="d-block w-286.5px"
                           src={value.img} 
                           alt="First slide"
                         />
@@ -90,8 +90,8 @@ const Cardstorage = () => {
                       </Carousel.Item>
                       <Carousel.Item>
                         <img
-                          className="d-block w-100"
-                          src={value.img} 
+                          className="d-block w-286.5px"
+                          src={value.img1} 
                           alt="Second slide"
                         />
 
@@ -100,8 +100,8 @@ const Cardstorage = () => {
                       </Carousel.Item>
                       <Carousel.Item>
                         <img
-                          className="d-block w-100"
-                          src={value.img} 
+                          className="d-block w-286.5px"
+                          src={value.img2} 
                           alt="Third slide"
                         />
 
@@ -109,7 +109,6 @@ const Cardstorage = () => {
                         </Carousel.Caption>
                       </Carousel.Item>
                     </Carousel>
-
                     <Card.Body>
                       <Card.Title>{value.title}</Card.Title>
                       <Card.Text>
@@ -125,7 +124,37 @@ const Cardstorage = () => {
                 <Col xs={3} className='d-none d-sm-block mt-5'>
                   <div>
                     <Card id='card' style={{ width: '18rem' }}>
-                      <Card.Img variant="top" id='card-img' src={value.img} />
+                    <Carousel fade>
+                      <Carousel.Item>
+                        <img
+                          className="d-block w-18rem"
+                          src={value.img} 
+                          alt="First slide"
+                        />
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          className="d-block w-18rem"
+                          src={value.img1} 
+                          alt="Second slide"
+                        />
+
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          className="d-block w-18rem "
+                          src={value.img2} 
+                          alt="Third slide"
+                        />
+
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                      </Carousel.Item>
+                    </Carousel>
                       <Card.Body>
                         <Card.Title>{value.title}</Card.Title>
                         <Card.Text>
