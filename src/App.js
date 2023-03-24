@@ -7,16 +7,6 @@ import NavbarPage from "./components/Navbar/NavbarPage";
 function App() {
 
 
-  // const PostData = ()=>{
-  //   fetch("url"),
-  //   {
-  //     method: "POST",
-  //     headers:eaders,
-  //     body:body
-  //   })
-  //   .then(response => { console.log(response.status); });
-  // }
-
 
 
 
@@ -25,12 +15,11 @@ function App() {
 
       <NavbarPage /> 
       <Cardstorage />
-
-
-      <NavbarPage/>
-      <Cardstorage/>
       <Footer/>
-  
+
+
+     
+ 
     </>
   );
 }
