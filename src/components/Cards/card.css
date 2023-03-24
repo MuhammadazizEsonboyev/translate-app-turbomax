@@ -18,13 +18,13 @@
 @media screen and (max-width:576px) {
     
 #card-img{
-    width: 366.7px;
-    height: 250px;
+    width: 365.6px;
+    height: 200px;
 }
 
-/* #card{
+#card{
     width: 605px; 
     height: 450px;
 
-} */
+}
 }
