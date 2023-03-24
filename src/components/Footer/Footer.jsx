@@ -49,7 +49,7 @@ export default function Footer() {
                             <ul className='list'>
                                 <Accordion defaultActiveKey="0">
                                     <Accordion.Item eventKey="0">
-                                        <Accordion.Header>Responsive</Accordion.Header>
+                                        <Accordion.Header>{t("text.resp")}</Accordion.Header>
                                         <Accordion.Body>
                                             <li>Asadbek</li>
                                             <br></br>
@@ -65,7 +65,7 @@ export default function Footer() {
                             <ul className='list'>
                                 <Accordion defaultActiveKey="0">
                                     <Accordion.Item eventKey="0">
-                                        <Accordion.Header>Tarjima</Accordion.Header>
+                                        <Accordion.Header>{t("text.trans")}</Accordion.Header>
                                         <Accordion.Body>
                                             <li>Samandar</li>
                                             <br></br>
@@ -81,7 +81,7 @@ export default function Footer() {
                             <ul className='list'>
                                 <Accordion defaultActiveKey="0">
                                     <Accordion.Item eventKey="0">
-                                        <Accordion.Header>Dizayn</Accordion.Header>
+                                        <Accordion.Header>{t("text.dizayn")}</Accordion.Header>
                                         <Accordion.Body>
                                             <li>Doston</li>
                                             <br></br>
