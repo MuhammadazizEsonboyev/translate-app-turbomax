@@ -7,11 +7,8 @@ import NavbarPage from "./components/Navbar/NavbarPage";
 function App() {
 
 
-
-
-
   return (
-    <
+    <>
       <NavbarPage /> 
       <Cardstorage />
       <Footer/>
