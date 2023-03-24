@@ -12,7 +12,8 @@
 #card{
     width: 286.5px;
     height: 450px;
-
+    background: #1A1A3D;
+    color: white;
 }
 
 @media screen and (max-width:576px) {
