@@ -18,9 +18,9 @@ export default function Footer() {
                         <hr></hr>
                         <h5>{t("text.footer_turboMax")}</h5>
                         <p>{t("text.turboMax")}</p>
-                        <img src={star} alt='' className='strix'/>
                         <div className='stoir'>
-                            <h6>{t("text.iTech")}</h6>
+                        <img src={star} alt='' className='strix'/>
+                            <h6 className='footer_h6'>{t("text.iTech")}</h6>
                         </div>
                     </Col>
                 </Row>
