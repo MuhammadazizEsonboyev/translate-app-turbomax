@@ -1,20 +1,26 @@
+// import i18next from 'i18next'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { useTranslation } from 'react-i18next'
 import "./footer.css"
 const star = require("../Footer/img/Vector.png")
 
+
+
+
 export default function Footer() {
+    const { t } = useTranslation()
     return (
         <>
             <Container>
-                <Row>
+                <Row className='justify-content-center'>
                     <Col xs={12}>
                         <hr></hr>
-                        <h5>TurboMax Group</h5>
-                        <p>TurboMax project</p>
-                        <img src={star} alt='' className='strix'/>
+                        <h5>{t("text.footer_turboMax")}</h5>
+                        <p>{t("text.turboMax")}</p>
                         <div className='stoir'>
-                            <h6>Itech Academy</h6>
+                        <img src={star} alt='' className='strix'/>
+                            <h6 className='footer_h6'>{t("text.iTech")}</h6>
                         </div>
                     </Col>
                 </Row>
