@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card, Col, Container, Row } from 'react-bootstrap'
+import { Button, Card, Carousel, Col, Container, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import './card.css'
 
@@ -63,21 +63,52 @@ const Cardstorage = () => {
             return (
               <>
                 <Col xs={12} lg={12} className='d-block d-sm-none mt-3'>
-                    <Card id='card' style={{ width: '23rem' }}>
-                      <Card.Img variant="top" id='card-img' src={value.img} />
-                      <Card.Body>
-                        <Card.Title>{value.title}</Card.Title>
-                        <Card.Text>
-                          {value.info}
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                      </Card.Body>
-                    </Card>
+                  <Card id='card' style={{ width: '23rem' }}>
+                    <Carousel fade>
+                      <Carousel.Item>
+                        <img
+                          className="d-block w-100"
+                          src={value.img} 
+                          alt="First slide"
+                        />
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          className="d-block w-100"
+                          src={value.img} 
+                          alt="Second slide"
+                        />
+
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          className="d-block w-100"
+                          src={value.img} 
+                          alt="Third slide"
+                        />
+
+                        <Carousel.Caption>
+                        </Carousel.Caption>
+                      </Carousel.Item>
+                    </Carousel>
+
+                    <Card.Body>
+                      <Card.Title>{value.title}</Card.Title>
+                      <Card.Text>
+                        {value.info}
+                      </Card.Text>
+                      <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                  </Card>
                 </Col>
 
 
 
-                <Col xs={3}  className='d-none d-sm-block mt-5'>
+                <Col xs={3} className='d-none d-sm-block mt-5'>
                   <div>
                     <Card id='card' style={{ width: '18rem' }}>
                       <Card.Img variant="top" id='card-img' src={value.img} />
