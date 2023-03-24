@@ -8,24 +8,30 @@ const Cardstorage = () => {
   const data = [
     {
       img: "https://img1.10bestmedia.com/Images/Photos/382063/GettyImages-1182776320_54_990x660.jpg",
+      img1:"https://www.tripsavvy.com/thmb/1vwoiJVvOT7ADjdliIBsquJ_7cE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/USA-NYC-American_Museum_of_Natural_History-5c00954fc9e77c000175923d.jpeg",
       title: `${t("text.titleZero")}`,
       info: `${t("text.cardInfoZero")}`,
       id: 1
     },
     {
       img: "https://www.japan-guide.com/g6/XYZeXYZe2172_225.jpg",
+      img2:"https://blog.japanwondertravel.com/wp-content/uploads/2020/01/thor-alvis-A57akxc-4BQ-unsplash-1200x800.jpg",
+
       title: `${t("text.titleOne")}`,
       info: `${t("text.cardInfoOne")}`,
       id: 1
     },
     {
       img: "https://u.osu.edu/uzbekistan/files/2021/01/Nature_Chimgan_Mountains.png",
+      img3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqaOr-vl4ZAWyGYH08Wp0Koe3MdA-aAX2QYQ&usqp=CAU",
+
       title: `${t("text.titleTwo")}`,
       info: `${t("text.cardInfoFour")}`,
       id: 1
     },
     {
       img: "https://www.advantour.com/img/kazakhstan/images/nature.jpg",
+      img4:"https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/39/29/e4.jpg",
       title: `${t("text.titleThree")}`,
       info: `${t("text.cardInfoThree")}`,
       id: 1
