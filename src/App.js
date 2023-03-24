@@ -22,17 +22,11 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-      <NavbarPage /> 
-      <Cardstorage />
 
-
-=======
       <NavbarPage/>
       <Cardstorage/>
       <Footer/>
-  
->>>>>>> 07ceee53c658cbef1389701cbb1763cc13d101ab
+ 
     </>
   );
 }
