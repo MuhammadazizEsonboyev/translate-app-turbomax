@@ -1,4 +1,4 @@
-import i18next from 'i18next'
+// import i18next from 'i18next'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
@@ -13,7 +13,7 @@ export default function Footer() {
     return (
         <>
             <Container>
-                <Row>
+                <Row className='justify-content-center'>
                     <Col xs={12}>
                         <hr></hr>
                         <h5>{t("text.footer_turboMax")}</h5>

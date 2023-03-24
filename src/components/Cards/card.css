@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+#card-img{
+    width: 286.5px;
+    height: 200px;
+}
+#card{
+    width: 286.5px;
+    height: 450px;
+
+}
+
+@media screen and (max-width:576px) {
+    
+#card-img{
+    width: 366.7px;
+    height: 250px;
+}
+
+/* #card{
+    width: 605px; 
+    height: 450px;
+
+} */
+}

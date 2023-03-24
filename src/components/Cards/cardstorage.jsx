@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
+import './card.css'
 
 const Cardstorage = () => {
   const { t } = useTranslation()
@@ -19,13 +20,13 @@ const Cardstorage = () => {
     },
     {
       img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
-      title:`${t("text.titleTwo")}`,
-      info:`${t("text.cardInfoFour")}`,
+      title: `${t("text.titleTwo")}`,
+      info: `${t("text.cardInfoFour")}`,
       id: 1
     },
     {
       img: "https://www.advantour.com/img/kazakhstan/images/nature.jpg",
-      title:`${t("text.titleThree")}`,
+      title: `${t("text.titleThree")}`,
       info: `${t("text.cardInfoThree")}`,
       id: 1
     },
@@ -57,14 +58,29 @@ const Cardstorage = () => {
   return (
     <div>
       <Container>
-        <Row className='justify-content-center mt-5 '>
+        <Row >
           {data.map((value) => {
             return (
               <>
-                <Col sx={3} className="mb-5">
+                <Col xs={12} lg={12} className='d-block d-sm-none mt-3'>
+                    <Card id='card' style={{ width: '23rem' }}>
+                      <Card.Img variant="top" id='card-img' src={value.img} />
+                      <Card.Body>
+                        <Card.Title>{value.title}</Card.Title>
+                        <Card.Text>
+                          {value.info}
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                      </Card.Body>
+                    </Card>
+                </Col>
+
+
+
+                <Col xs={3}  className='d-none d-sm-block mt-5'>
                   <div>
-                    <Card style={{ width: '18rem' }}>
-                      <Card.Img variant="top" src={value.img} />
+                    <Card id='card' style={{ width: '18rem' }}>
+                      <Card.Img variant="top" id='card-img' src={value.img} />
                       <Card.Body>
                         <Card.Title>{value.title}</Card.Title>
                         <Card.Text>
