@@ -7,7 +7,7 @@
 
 #card-img{
     width: 286.5px;
-    /* height: 200px; */
+    height: 200px;
 }
 #card{
     width: 286.5px;
@@ -16,15 +16,15 @@
 }
 
 @media screen and (max-width:576px) {
-/*     
+    
 #card-img{
-    width: 366.7px;
+    width: 365.6px;
     height: 200px;
-} */
+}
 
-/* #card{
+#card{
     width: 605px; 
     height: 450px;
 
-} */
+}
 }
