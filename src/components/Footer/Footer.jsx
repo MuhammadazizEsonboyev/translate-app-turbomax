@@ -19,7 +19,7 @@ export default function Footer() {
                     <Row className='justify-content-center'>
                         <Col xs={12}>
                             <hr></hr>
-                            <h5 style={{marginLeft: '10px'}}>{t("text.footer_turboMax")}</h5>
+                            <h5  style={{marginLeft: '10px'}}>{t("text.footer_turboMax")}</h5>
                             <p style={{marginLeft: '10px'}}>{t("text.turboMax")}</p>
                             <div className='stoir'>
                                 <img style={{marginRight: '10px'}} src={star} alt='' className='strix' />
