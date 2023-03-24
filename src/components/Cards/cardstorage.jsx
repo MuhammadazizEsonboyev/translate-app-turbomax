@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
+import './card.css'
 
 const Cardstorage = () => {
   const { t } = useTranslation()
@@ -64,7 +65,7 @@ const Cardstorage = () => {
                 <Col sx={3} className="mb-5">
                   <div>
                     <Card style={{ width: '18rem' }}>
-                      <Card.Img variant="top" src={value.img} />
+                      <Card.Img variant="top" id='card-img' src={value.img} />
                       <Card.Body>
                         <Card.Title>{value.title}</Card.Title>
                         <Card.Text>

@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+#card-img{
+    width: 286.5px;
+    height: 200px;
+}
