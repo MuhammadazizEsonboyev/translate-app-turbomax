@@ -17,9 +17,6 @@ function App() {
       <Cardstorage />
       <Footer/>
 
-
-     
- 
     </>
   );
 }
