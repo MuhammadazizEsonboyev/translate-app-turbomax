@@ -39,11 +39,11 @@ export default function Footer() {
               </a>
             </Col>
 
-            {/* suuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */}
 
+                      
             <Col xs={3}>
-              <ul className="list">
-                <Accordion defaultActiveKey="1">
+              <ul className="list" >
+                <Accordion style={{borderRadius:"5px" , color:"#1A1A3D", outline:"none"}} defaultActiveKey="1">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>{t("text.resp")}</Accordion.Header>
                     <Accordion.Body>
@@ -59,7 +59,7 @@ export default function Footer() {
             </Col>
             <Col xs={3}>
               <ul className="list">
-                <Accordion defaultActiveKey="1">
+                <Accordion id="accardion" style={{borderRadius:"5px" , backgroundColor:"#1A1A3D", outline:"none"}} defaultActiveKey="1">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>{t("text.trans")}</Accordion.Header>
                     <Accordion.Body>
@@ -77,9 +77,11 @@ export default function Footer() {
               <ul className="list">
                 <Accordion defaultActiveKey="1">
                   <Accordion.Item eventKey="0">
-                    <Accordion.Header>{t("text.dizayn")}</Accordion.Header>
+                    <Accordion.Header  style={{borderRadius:"5px" , backgroundColor:"#1A1A3D", outline:"none"}}>{t("text.dizayn")}</Accordion.Header>
                     <Accordion.Body>
-                      <li>Doston</li>
+                      <li >Asadbek</li>
+                      <br />
+                      <li>Bobur</li>
                       <br></br>
                       <li>Bekhruz</li>
                       <br></br>
