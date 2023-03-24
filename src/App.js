@@ -11,12 +11,10 @@ function App() {
 
 
   return (
-    <>
-
+    <
       <NavbarPage /> 
       <Cardstorage />
       <Footer/>
-
     </>
   );
 }
