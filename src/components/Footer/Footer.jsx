@@ -14,18 +14,21 @@ export default function Footer() {
         <>
             <section className='back'>
                 <Container>
+                    <div id='section-color'>
+
                     <Row className='justify-content-center'>
                         <Col xs={12}>
                             <hr></hr>
-                            <h5>{t("text.footer_turboMax")}</h5>
-                            <p>{t("text.turboMax")}</p>
+                            <h5 style={{marginLeft: '10px'}}>{t("text.footer_turboMax")}</h5>
+                            <p style={{marginLeft: '10px'}}>{t("text.turboMax")}</p>
                             <div className='stoir'>
-                                <img src={star} alt='' className='strix' />
-                                <h6 className='footer_h6'>{t("text.iTech")}</h6>
+                                <img style={{marginRight: '10px'}} src={star} alt='' className='strix' />
+                                <h6 style={{marginRight: '10px'}} className='footer_h6'>{t("text.iTech")}</h6>
                             </div>
                         </Col>
                     </Row>
                     <Row className='justify-content-center mt-5'>
+                        
                         <Col xs={1} className='iconchalar'>
                         <a href='https://github.com/MuhammadazizEsonboyev/translate-app-turbomax'>
                             <i class="fa-brands fa-github"></i>
@@ -95,6 +98,8 @@ export default function Footer() {
                         </Col>
                         <hr></hr>
                     </Row>
+
+                    </div>
                 </Container>
             </section>
         </>
