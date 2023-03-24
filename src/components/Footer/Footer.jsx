@@ -47,7 +47,7 @@ export default function Footer() {
 
                         <Col xs={3}>
                             <ul className='list'>
-                                <Accordion defaultActiveKey="0">
+                                <Accordion defaultActiveKey="1">
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header>Responsive</Accordion.Header>
                                         <Accordion.Body>
@@ -63,7 +63,7 @@ export default function Footer() {
                         </Col>
                         <Col xs={3}>
                             <ul className='list'>
-                                <Accordion defaultActiveKey="0">
+                                <Accordion defaultActiveKey="1">
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header>Tarjima</Accordion.Header>
                                         <Accordion.Body>
@@ -79,9 +79,9 @@ export default function Footer() {
                         </Col>
                         <Col xs={3}>
                             <ul className='list'>
-                                <Accordion defaultActiveKey="0">
+                                <Accordion defaultActiveKey="1">
                                     <Accordion.Item eventKey="0">
-                                        <Accordion.Header>Dizayn</Accordion.Header>
+                                        <Accordion.Header >Dizayn</Accordion.Header>
                                         <Accordion.Body>
                                             <li>Doston</li>
                                             <br></br>

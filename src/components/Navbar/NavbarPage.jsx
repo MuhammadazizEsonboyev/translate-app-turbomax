@@ -14,22 +14,22 @@ const NavbarPage = () => {
 <Container>
     <Row className="justify-content-center mt-4">
         <Col xs={12}>
-        <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar bg="#1A1A3D" expand="lg" >
+      <Container style={{}}>
+        <Navbar.Brand style={{color:"white"}}  href="#home">Turbo-max-04</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto">
-            <Nav.Link href="#home">{t("text.home")}</Nav.Link>
-            <Nav.Link href="#link">{t("text.link")}</Nav.Link>
+            <Nav.Link style={{color:"white"}}  href="#home">{t("text.home")}</Nav.Link>
+            <Nav.Link style={{color:"white"}}  href="#link">{t("text.link")}</Nav.Link>
          
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
-        <select onChange={onChange} style={{color: "gray", border:"none"}} name="Translation" id="1">
-                      <option  value="ru">Russian</option>
-                      <option  value="eng">English</option>
-                      <option   value="uz">Uzbek</option>
+        <select onChange={onChange} style={{color: "white", border:"none", padding:"7px", borderRadius:"5px" , backgroundColor:"#1A1A3D", outline:"none"}} name="Translation" id="1">
+                      <option value="ru">Russian</option>
+                      <option value="eng">English</option>
+                      <option value="uz">Uzbek</option>
                     </select>
         </Navbar.Collapse>
       </Container>
