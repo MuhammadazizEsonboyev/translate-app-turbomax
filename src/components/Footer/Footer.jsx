@@ -78,8 +78,6 @@ export default function Footer() {
                 <Accordion defaultActiveKey="1">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>{t("text.dizayn")}</Accordion.Header>
-
-                    <Accordion.Header>Dizayn</Accordion.Header>
                     <Accordion.Body>
                       <li>Doston</li>
                       <br></br>
