@@ -7,7 +7,7 @@ const Cardstorage = () => {
   const { t } = useTranslation()
   const data = [
     {
-      img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
+      img: "https://img1.10bestmedia.com/Images/Photos/382063/GettyImages-1182776320_54_990x660.jpg",
       title: `${t("text.titleZero")}`,
       info: `${t("text.cardInfoZero")}`,
       id: 1
@@ -19,7 +19,7 @@ const Cardstorage = () => {
       id: 1
     },
     {
-      img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
+      img: "https://u.osu.edu/uzbekistan/files/2021/01/Nature_Chimgan_Mountains.png",
       title: `${t("text.titleTwo")}`,
       info: `${t("text.cardInfoFour")}`,
       id: 1
@@ -37,19 +37,19 @@ const Cardstorage = () => {
       id: 1
     },
     {
-      img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
+      img: "https://livinglandscapeobserver.net/wp-content/uploads/2017/12/unnamed-5.jpg",
       title: `${t("text.titleFive")}`,
       info: `${t("text.cardInfoFive")}`,
       id: 1
     },
     {
-      img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
+      img: "https://www.worldatlas.com/r/w768/upload/d5/2e/3f/shutterstock-1033815457.jpg",
       title: `${t("text.titleSix")}`,
       info: `${t("text.cardInfoSix")}`,
       id: 1
     },
     {
-      img: "https://wallpapers.com/images/featured/banana-leaf-i1m1ulaygn46l916.jpg",
+      img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/e4/d4/38/river-seine.jpg?w=500&h=-1&s=1",
       title: `${t("text.titleSeven")}`,
       info: `${t("text.cardInfoSeven")}`,
       id: 1
@@ -130,5 +130,6 @@ const Cardstorage = () => {
     </div>
   )
 }
+
 
 export default Cardstorage
